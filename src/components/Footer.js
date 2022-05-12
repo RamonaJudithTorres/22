@@ -5,23 +5,18 @@ export default function Footer() {
     <div>
         <footer className="page-footer font-small blue pt-4">
     <div className="container-fluid text-center text-md-left">
-        <div className="row">
-        <h5 className="text-uppercase">Contacto</h5>
-            <hr className="clearfix w-100 d-md-none pb-0"/>
+    <h5 className="text-uppercase border-bottom p-3 m-0">Contacto</h5>
+        <div className="row border-bottom footerBg" >
             <div className="col-md-6 mb-md-0 mb-3">
-                <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+                <ul className="list-unstyled ">
+                   <a href="#!" className="list-group-item-action bg-transparent py-2  border border-0 listSide" >Link 2</a>
+                    <a href="#!" className="list-group-item bg-transparent py-2  border border-0 listSide">Link 3</a>
+                    <a href="#!" className="list-group-item bg-transparent py-2  border border-0 listSide">Link 4</a>
                 </ul>
             </div>
             <div className="col-md-3 mb-md-0 mb-3">
                 <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+
                 </ul>
             </div>
         </div>

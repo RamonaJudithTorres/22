@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.navTopbg {
+  font-family: Helvetica;
+  font-style:normal;
+  font-size:20px;
+}
+
+.fotoCarrusel{
+  height: 600px;
+}
+
+
+.contactoFooter{
+  color: navy;
+}
+
+.footerBg{
+  font-size:20px;
+  background-color: navy;
+}
+
+.listSide{
+  text-decoration: none;
+  background-color: navy;
+}

@@ -2,6 +2,8 @@ import pic1 from '../assets/foto2.jpg'
 import pic2 from '../assets/foto1.jpg'
 import pic3 from '../assets/foto3.jpg'
 import {Carousel} from 'react-bootstrap'
+import '../App.css';
+import '../index.css';
 
 export default function Carrusel(){
 
@@ -9,7 +11,7 @@ export default function Carrusel(){
         <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="fotoCarrusel d-block w-100"
       src={pic3}
       alt="First slide"
     />
@@ -20,8 +22,8 @@ export default function Carrusel(){
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src={pic2}
+      className="fotoCarrusel d-block w-100"
+      src={pic2} 
       alt="First slide"
     />
     <Carousel.Caption>
@@ -31,7 +33,7 @@ export default function Carrusel(){
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="fotoCarrusel d-block w-100"
       src={pic1}
       alt="First slide"
     />

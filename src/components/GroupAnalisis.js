@@ -22,7 +22,7 @@ export default function GroupAnalisis({ analisis }) {
             </div>*/
 
             /* GRACIAS A MI COMPITA Suresh Dasari por este card design horizontal. Eres Grande. */
-            <div className="col-12 col-lg-12 mt-5" key={i}>
+            <div className="col-12 col-lg-6 mt-5" key={i}>
 
             <div className="card border-light">
             <div className="row no-gutters">

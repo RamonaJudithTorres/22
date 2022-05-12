@@ -5,6 +5,7 @@ export default function Analisis() {
   return (
     <div className="mt-5 mx-5 d-flex">
       <div className="container-fluid">
+        
         <div className="row mb-5 align-items-center">
           <div className="col-md-6 mb-md-0 mb-3">
             <Card style={{ width: "40rem" }}>

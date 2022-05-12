@@ -2,7 +2,9 @@ import axios from "axios";
 import { Alert } from "react-bootstrap";
 //axios es la libreria para hacer peticiones
 
-const URL = `https://624b594f71e21eebbcf100fd.mockapi.io/analisis`
+/*const URL = `https://624b594f71e21eebbcf100fd.mockapi.io/analisis`*/
+
+const URL = `${process.env.REACT_APP_API}/analisis`
 //el env es un objeto que va ayudarte a acceder a tus variables de entorno
 // para utilizar await tengo que utilizarlo dentro de un bloque que sea de async
 
