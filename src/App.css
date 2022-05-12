@@ -44,7 +44,13 @@
 }
 
 .fotoCarrusel{
-  height: 600px;
+  height: 30em;
+  border-style: solid;
+  border-color: navy;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-width: 50px;
 }
 
 

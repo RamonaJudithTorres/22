@@ -23,7 +23,9 @@ useEffect(()=>{
 
     return(
             <div >
-                <Carrusel/>  
+                <div  className="col-lg-12 mt-5">
+                <Carrusel/> 
+                </div>
                 < GroupAnalisis analisis={analisis}/>  
                 <Footer/>
             </div>
