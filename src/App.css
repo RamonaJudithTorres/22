@@ -66,4 +66,18 @@
 .listSide{
   text-decoration: none;
   background-color: navy;
+  text-align: left;
+}
+
+.textAboutus{
+  font-family: Helvetica;
+  font-size:20px;
+  color: navy;
+  padding-top: 18px;
+  border-style: solid;
+  border-color: rgba(168, 9, 9, 0.911);
+  border-left: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-width: 1px;
 }

@@ -1,6 +1,6 @@
 import {useState, useEffect } from 'react'
 import Carrusel from '../components/Carrusel'
-import Footer from '../components/Footer'
+
 import Analisis from '../components/Analisis'
 import GroupAnalisis from '../components/GroupAnalisis.js'
 import { getAnalisis } from '../services/analisisServices'
@@ -23,11 +23,9 @@ useEffect(()=>{
 
     return(
             <div >
-                <div  className="col-lg-12 mt-5">
-                <Carrusel/> 
-                </div>
+                <Carrusel/>  
                 < GroupAnalisis analisis={analisis}/>  
-                <Footer/>
+                
             </div>
     )
 }

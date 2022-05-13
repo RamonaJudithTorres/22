@@ -28,11 +28,12 @@ export default function GroupAnalisis({ analisis }) {
             <div className="row no-gutters">
                 <div className="col-sm-5">
                     <img className="card-img" src={estudio.analisis_image} alt="Card"/>
+                    <h5 className="card-title listSide text-light py-1 px-3">{estudio.analisis_name}</h5>
                 </div>
                 <div className="col-sm-7">
                     <div className="card-body">
-                        <h5 className="card-title">{estudio.analisis_name}</h5>
-                        <p className="card-text">{estudio.analisis_description}</p>
+                        
+                        <p className="card-text" style={{textAlign: "justify"}}>{estudio.analisis_description}</p>
                         <a href="#" className="btn btn-primary">Ver más</a>
                         <hr />
                     </div>
@@ -40,8 +41,6 @@ export default function GroupAnalisis({ analisis }) {
             </div>
         </div>
         </div>
-
-
 
           ))}
         </div>
